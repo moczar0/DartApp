@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="99dp"
+        android:text="Wyrzucone lotki"
+        android:textSize="30sp"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="37dp" />
+
+    <TextView
+        android:id="@+id/ile_lotek"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="50sp"
+        tools:layout_editor_absoluteX="188dp"
+        tools:layout_editor_absoluteY="125dp" />
+
+    <TextView
+        android:id="@+id/atctarget_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Double 1"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="226dp" />
+
+    <TextView
+        android:id="@+id/atctarget_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Double 2"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="166dp"
+        tools:layout_editor_absoluteY="226dp" />
+
+    <TextView
+        android:id="@+id/atctarget_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Double 3"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="280dp"
+        tools:layout_editor_absoluteY="226dp" />
+
+    <Button
+        android:id="@+id/atc_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="292dp"
+        android:text="HIT"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/atc_2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/atctarget_1" />
+
+    <Button
+        android:id="@+id/atc_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="45dp"
+        android:text="HIT"
+        app:layout_constraintBottom_toTopOf="@+id/atc_nic"
+        app:layout_constraintEnd_toStartOf="@+id/atc_3"
+        app:layout_constraintStart_toEndOf="@+id/atc_1"
+        app:layout_constraintTop_toBottomOf="@+id/atctarget_2" />
+
+    <Button
+        android:id="@+id/atc_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="43dp"
+        android:layout_marginBottom="294dp"
+        android:text="HIT"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/atc_2"
+        app:layout_constraintTop_toBottomOf="@+id/atctarget_3" />
+
+    <Button
+        android:id="@+id/atc_nic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NIC :("
+        tools:layout_editor_absoluteX="166dp"
+        tools:layout_editor_absoluteY="355dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

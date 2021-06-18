@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000"
+        android:orientation="vertical"
+        android:rotationY="0">
+
+        <Button
+            android:id="@+id/buttonToGra"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:insetLeft="9dp"
+            android:insetRight="9dp"
+            android:text="@string/gra"
+            android:translationX="100dp"
+            android:translationY="238dp" />
+
+        <Button
+            android:id="@+id/buttonToJdc"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:insetLeft="9dp"
+            android:insetRight="9dp"
+            android:text="@string/jdc_challenge"
+            android:translationX="100dp"
+            android:translationY="241dp" />
+
+        <Button
+            android:id="@+id/buttonToAtc"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="202dp"
+            android:layout_height="wrap_content"
+            android:insetLeft="9dp"
+            android:insetRight="9dp"
+            android:text="@string/around_the_clock"
+            android:translationX="100dp"
+            android:translationY="244dp" />
+
+        <Button
+            android:id="@+id/ButtonToKonto"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:insetLeft="9dp"
+            android:insetRight="9dp"
+            android:text="@string/konto"
+            android:translationX="100dp"
+            android:translationY="247dp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="200dp"
+            android:layout_height="242dp"
+            android:contentDescription="@string/logo"
+            android:translationX="100dp"
+            android:translationY="-190dp"
+            app:srcCompat="@drawable/pks" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/powered_by"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@android:color/holo_green_dark"
+            android:textColorHint="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            android:translationX="200dp"
+            android:translationY="100dp"
+            android:typeface="sans"
+            android:verticalScrollbarPosition="defaultPosition"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pks"
+            android:textColor="@android:color/white"
+            android:textColorLink="#FFFFFF"
+            android:textDirection="firstStrongRtl"
+            android:textIsSelectable="false"
+            android:textSize="25sp"
+            android:textStyle="normal|bold|italic"
+            android:translationX="310dp"
+            android:translationY="70dp"
+            android:typeface="monospace"
+            android:verticalScrollbarPosition="defaultPosition" />
+
+        <Button
+            android:id="@+id/ButtonToOnline"
+            android:layout_width="197dp"
+            android:layout_height="wrap_content"
+            android:text="@string/online"
+            android:translationX="102dp"
+            android:translationY="-55dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

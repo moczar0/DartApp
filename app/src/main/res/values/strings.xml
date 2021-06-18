@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">PKSDarts</string>
+    <string name="_3">3</string>
+    <string name="do_ilu">Do ilu legów:</string>
+    <string name="solo">solo</string>
+    <string name="tryb_gry">Tryb gry:</string>
+    <string name="pojedynek">pojedynek</string>
+    <string name="score">Score:</string>
+    <string name="_301">301</string>
+    <string name="_501">501</string>
+    <string name="graj">GRAJ</string>
+    <string name="hint">hint</string>
+    <string name="cel">CEL</string>
+    <string name="login">Login</string>
+    <string name="has_o">Hasło</string>
+    <string name="wy_ij_dane_do_bazy">Wyśij dane do bazy</string>
+    <string name="gra">Gra</string>
+    <string name="jdc_challenge">JDC Challenge</string>
+    <string name="around_the_clock">Around The Clock</string>
+    <string name="konto">Konto</string>
+    <string name="powered_by">Powered By</string>
+    <string name="pks">PKS</string>
+    <string name="online">ONLINE</string>
+    <string name="logo">logo</string>
+    <string name="_10">10</string>
+    <string name="score">Score:</string>
+    <string name="single">SINGLE</string>
+    <string name="double">DOUBLE</string>
+    <string name="miss">MISS</string>
+    <string name="tripple">TRIPPLE</string>
+    <string name="_0">0</string>
+    <string name="_0">0</string>
+    <string name="_0">0</string>
+    <string name="double_time">Double Time</string>
+    <string name="_0">0</string>
+    <string name="hit">HIT</string>
+</resources>

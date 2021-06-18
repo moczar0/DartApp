@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/nav_app"
+    app:startDestination="@id/fragment_gra">
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragment"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:defaultNavHost="true"
+        app:navGraph="@navigation/nav_app" />
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragment4"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:defaultNavHost="true"
+        app:navGraph="@navigation/nav_app" />
+    <fragment
+        android:id="@+id/fragment_gra"
+        android:name="com.example.pksdarts.Fragment_gra"
+        android:label="Fragment_gra" >
+        <action
+            android:id="@+id/action_fragment_gra_to_fragment_gra2_solo"
+            app:destination="@id/fragment_gra2_solo" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_AtC"
+        android:name="com.example.pksdarts.Fragment_AtC"
+        android:label="Fragment_AtC" />
+    <fragment
+        android:id="@+id/fragment_Konto"
+        android:name="com.example.pksdarts.Fragment_Konto"
+        android:label="Fragment_Konto" />
+    <fragment
+        android:id="@+id/fragment_jdc"
+        android:name="com.example.pksdarts.Fragment_jdc"
+        android:label="Fragment_jdc" />
+    <fragment
+        android:id="@+id/fragment_online"
+        android:name="com.example.pksdarts.Fragment_online"
+        android:label="Fragment_online" />
+    <fragment
+        android:id="@+id/fragment_menu"
+        android:name="com.example.pksdarts.Fragment_menu"
+        android:label="Fragment_menu" >
+        <action
+            android:id="@+id/action_fragment_menu_to_fragment_gra"
+            app:destination="@id/fragment_gra" />
+        <action
+            android:id="@+id/action_fragment_menu_to_fragment_jdc"
+            app:destination="@id/fragment_jdc" />
+        <action
+            android:id="@+id/action_fragment_menu_to_fragment_AtC"
+            app:destination="@id/fragment_AtC" />
+        <action
+            android:id="@+id/action_fragment_menu_to_fragment_Konto"
+            app:destination="@id/fragment_Konto" />
+        <action
+            android:id="@+id/action_fragment_menu_to_fragment_online2"
+            app:destination="@id/fragment_online" />
+    </fragment>
+    <fragment android:id="@+id/fragment_gra2_solo" />
+</navigation>
